@@ -1,6 +1,6 @@
-# TypeScript + Node.js Starter
+# TypeScript + React.js Starter
 
-Personal TypeScript + Node.js project scaffold.
+Personal TypeScript + React.js project scaffold.
 
 ## Overview
 
