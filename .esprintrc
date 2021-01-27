@@ -1,0 +1,4 @@
+{
+  "paths": ["src/**/*.ts", "src/**/*.tsx"],
+  "ignored": ["node_modules", "build"]
+}

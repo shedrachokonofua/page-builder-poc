@@ -1,0 +1,39 @@
+main {
+  display: flex;
+  height: 100vh;
+  max-height: 100vh;
+  flex-direction: column;
+}
+
+main > header {
+  padding: 12px 32px;
+  background-color: #30404d;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.editor {
+  display: flex;
+  flex: 1;
+}
+
+.workspace,
+.panel {
+  height: 100%;
+}
+
+.workspace {
+  @apply shadow-inner;
+  width: 1280px;
+  background-color: #f5f8fa;
+}
+
+.panel {
+  flex: 1;
+  border-left: 1px solid #d1d5db;
+}
+
+.add-element-button {
+  margin: 16px;
+}

@@ -1,0 +1,7 @@
+{
+  "plugins": {
+    "tailwindcss": {},
+    "autoprefixer": {}
+  },
+  "purge": ["./src/**/*.html", "./src/**/*.ts", "./src/**/*.tsx"]
+}
